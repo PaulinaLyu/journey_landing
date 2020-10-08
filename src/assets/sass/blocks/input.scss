@@ -1,0 +1,32 @@
+.input {
+    width: 100%;
+    height: 3rem;
+    padding: 12px;
+
+    background: $white;
+    border: 1px solid #e7e7e7;
+
+	font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 300;
+	color: $grey;
+	
+	&:focus {
+		outline: 0;
+		border-color: $main;
+	}
+	&::placeholder {
+		color: #cccccc;
+	}
+
+	&--modal {
+		margin-bottom: 1rem;
+	}
+}
+
+::-webkit-datetime-edit-text { color: #cccccc; }
+::-webkit-datetime-edit-month-field { color: #cccccc; }
+::-webkit-datetime-edit-day-field { color: #cccccc; }
+::-webkit-datetime-edit-year-field { color: #cccccc; }
+::-webkit-inner-spin-button { display: none; }

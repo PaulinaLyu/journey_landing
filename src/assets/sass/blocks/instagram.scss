@@ -1,0 +1,30 @@
+.instagram__title {
+    margin-bottom: 2rem;
+
+    font-family: "Lato" ,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: $black
+}
+
+.instagram__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instagram__item {
+    width: 33%;
+    border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 991px) {
+    .instagram__inner {
+        justify-content: start;
+    }
+
+    .instagram__item {
+        width: auto;
+        border-right: 1px solid #ffffff;
+    }
+}

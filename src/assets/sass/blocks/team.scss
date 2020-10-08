@@ -1,0 +1,78 @@
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+.team__item {
+	width: 33.33333%;
+	margin-bottom: 3rem;
+	padding: 0 1rem;
+}
+
+.team__photo {
+	width: 100%;
+	box-shadow: $shadow;
+}
+
+.team__contacts {
+	font-size: 1rem;
+	color: $black;
+
+	line-height: 1.2;
+
+	& li {
+		margin-bottom: .6rem;
+	}
+
+	& a {
+		color: inherit;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	& img {
+		width: 1rem;
+		height: auto;
+		margin-right: .5rem;
+	}
+}
+
+.team__name {
+	margin-bottom: .2rem;
+
+	font-family: "Lato" ,sans-serif;
+	color: $black;
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+.team__prof {
+	margin-bottom: 1rem;
+
+	color: $grey;
+	font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+	.team {
+        flex-direction: column;
+    }
+
+    .team__item{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	.team__name {
+		margin-top: .7rem;
+	}
+}

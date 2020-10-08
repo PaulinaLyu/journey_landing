@@ -1,0 +1,24 @@
+<div class="modal" id="сallMeBack">
+	<div class="modal__inner">
+		<div class="modal__header">
+			<h4 class="modal__title">Do you want to go on <br> an unforgettable trip? <br> We can help!</h4>
+			<div class="modal__text">
+				<p>Fill a little form and we'll call you back!</p>
+			</div>
+		</div>
+		<form action="/" method="POST"></form>
+			<input class="input  input--modal" type="text" name="name" placeholder=" Your name">
+			<input class="input  input--modal" type="tel" name="phone" placeholder="Your phone">
+			<input class="input  input--modal" type="email" name="e-mail" placeholder="Your e-mail">
+			<button class="btn  btn--full" data-modal="#thanksForRequest" data-modal-close="">Call me back</button>
+		</form>
+		<div class="modal__footer">
+
+			{{> social }}
+
+		</div>
+		<button class="modal__close" type="button" data-modal-close="">
+			<img  src="assets/img/close-icon.svg" alt="Close">
+		</button>
+	</div>
+</div>

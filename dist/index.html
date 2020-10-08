@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#aa1c25">
+    <meta name="msapplication-TileColor" content="#aa1c25">
+    <meta name="theme-color" content="#aa1c25">
+    
+    <title>Journey</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script></head>
+<body>
+    
+    
+    <header class="header" id="header">
+    	<div class="container">
+    		<div class="header__inner">
+    			<a class="logo" href="#" data-scroll="#intro">J<span>o</span>urney</a>
+    			<nav class="nav" id="nav">
+    				<a class="nav__link" href="#" data-scroll="#offers">Offers</a>
+    				<a class="nav__link" href="#" data-scroll="#benefits">Benefits</a>
+    				<a class="nav__link" href="#" data-scroll="#reviews">Reviews</a>
+    				<a class="nav__link" href="#" data-scroll="#team">Team</a>
+    				<a class="nav__link" href="#" data-scroll="#blog">Blog</a>
+    				<a class="nav__link" href="#" data-modal="#сallMeBack">Contact Us</a>
+    			</nav>
+    			<button class="burger" type="button" id="navToggle">
+    				<span class="burger__line">1</span>
+    				<span class="burger__line">2</span>
+    				<span class="burger__line">3</span>
+    				<span class="burger__line">4</span>
+    			</button>
+    		</div>
+    	</div>
+    </header>
+    <div class="intro" id="intro">
+    	<div class="intro__slider  slider--nopadding" id="introSlider">
+    		<div class="slider-item">
+    			<img class="intro__slider-photo" src="assets/img/slider/intro-bg.jpg" alt="Norway">
+    		</div>
+    		 <div class="slider-item">
+    			<img class="intro__slider-photo" src="assets/img/slider/intro-bg-2.jpg" alt="Italy">
+    		</div>
+    		<div class="slider-item">
+    			<img class="intro__slider-photo" src="assets/img/slider/intro-bg-3.jpg" alt="Germany">
+    		</div> 
+    		<div class="slider-item">
+    			<img class="intro__slider-photo" src="assets/img/slider/intro-bg-4.jpg" alt="USA">
+    		</div>
+    		<div class="slider-item">
+    			<img class="intro__slider-photo" src="assets/img/slider/intro-bg-5.jpg" alt="Germany">
+    		</div> 
+    	</div>
+    
+    	<div class="container">
+    		<div class="intro__inner">
+    			<div class="intro__text">
+    				<h1 class="intro__title">Relax & Travel</h1>
+    				<div class="intro__subtitle">You Don't Need Magic to Disappear. All you need is a ticket.</div>	
+    			</div>
+    			
+    		</div>
+    	</div>
+    	<div class="intro__slider-arrows">
+    		<button class="intro__slider-btn  intro__slider-btn--prev" id="introSliderPrev" type="button">Prev</button>
+    		<button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext" type="button">Next</button>
+    	</div>
+    
+    
+    </div>
+    <form class="form" data-aos="fade-up"  action="/" method="post">
+    	<div class="container">
+    		<div class="form__inner">
+    			<div class="form__col--first">
+    				<div class="form__title">Find your <br><span>holidays</span></div>
+    			</div>
+    			<div class="form__col--second">
+    			<div class="form__group">
+    				<input class="input" type="text" name="destination" placeholder="Destination">
+    				<input class="input" type="date" name="date">
+    			</div>
+    			</div>
+    			<div class="form__col--third">
+    				<button class="btn  btn--nomargin">Search</button>
+    			</div>
+    		</div>
+    	</div>
+    </form>
+    <section class="section" id="offers" data-scrollspy="#offers">
+    	<div class="container">
+    		<h2 class="section__title" data-aos="fade-right">Special <span>Offers</span></h2>
+    		</div>
+    		<div class="offers slick--padding" id="offersSlider">
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-1.jpg" alt="France">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Eiffel tower, France</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-2.jpg" alt="Greece">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Thira, Greece</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-3.jpg" alt="Dubai">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Burj tower, UAE</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-4.jpg" alt="Greece">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Santorini, Greece</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-5.jpg" alt="Iceland">
+    				<div class="offers__content">
+    					<h3 class="offers__title">North light, Iceland</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-6.jpg" alt="Morocco">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Sahara Desert, Morocco</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-7.jpg" alt="United Kingdom">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Glenfinnan, UK</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    			<div class="offers__item">
+    				<img class="offers__img" src="assets/img/offers/offers-8.jpg" alt="Brazil">
+    				<div class="offers__content">
+    					<h3 class="offers__title">Jungle, Brazil</h3>
+    					<div class="offers__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    				</div>
+    			</div>
+    		</div>
+    
+    		<div class="container">
+    			<button class="btn  btn--section">View all tours</button>
+    		</div>
+    
+    </section>
+    <div class="section" id="benefits" data-scrollspy="#benefits">
+    	<div class="container">
+    		<h2 class="section__title" data-aos="fade-right" >Our <span>Benefits</span></h2>
+    		<div class="benefits">
+    			<div class="benefits__item" data-aos="zoom-out-left">
+    				<img src="assets/img/benefits/benefits-icon-1.svg" alt="Benefits-icon-1">
+    				<h4 class="benefits__title">Personalized matching</h4>
+    				<p class="benefits-list__text">We can provide up to 3 experienced
+    				travel specialists who fit best.</p>
+    			</div>
+    			<div class="benefits__item" data-aos="zoom-out-left" data-aos-delay="100">
+    				<img src="assets/img/benefits/benefits-icon-2.svg" alt="Benefits-icon-2">
+    				<h4 class="benefits__title">Wide variety of destinations</h4>
+    				<p class="benefits__text">With us, you’ll find a perfect 
+    				destination among hundreds available.</p>
+    			</div>
+    			<div class="benefits__item" data-aos="zoom-out-left" data-aos-delay="300">
+    				<img src="assets/img/benefits/benefits-icon-3.svg" alt="Benefits-icon-3">
+    				<h4 class="benefits__title">Highly qualified service</h4>
+    				<p class="benefits__text">Our high level of service is officially
+    				recognized by thousands of clients.</p>
+    			</div>
+    			<div class="benefits__item" data-aos="zoom-out-left" data-aos-delay="600">
+    				<img src="assets/img/benefits/benefits-icon-4.svg" alt="Benefits-icon-4">
+    				<h4 class="benefits__title">24/7 support</h4>
+    				<p class="benefits__text">Our travel agents are always
+    				there to support you during your trip.</p>
+    			</div>
+    			<div class="benefits__item" data-aos="zoom-out-left" data-aos-delay="900">
+    				<img src="assets/img/benefits/benefits-icon-5.svg" alt="Benefits-icon-5">
+    				<h4 class="benefits__title">Handpicked hotels</h4>
+    				<p class="benefits__text">We pick the hotels with 
+    				the utmost reputation and positive reviews.</p>
+    			</div>
+    			<div class="benefits__item" data-aos="zoom-out-left" data-aos-delay="1200">
+    				<img src="assets/img/benefits/benefits-icon-6.svg" alt="Benefits-icon-6">
+    				<h4 class="benefits__title">Best price guarantee</h4>
+    				<p class="benefits__text">We guarantee you’ll get top-notch
+    				comfort at an affordable price.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+    <div class="quote">
+    	<div class="container">
+    		<div class="quote__inner">
+    			<blockquote>
+    				<p class="quote__text">"The world is a book and <br> those who do not travel read only one page."</p>
+    				<cite class="quote__author">St. Augustine</cite>
+    			</blockquote>
+    			<button class="btn" data-modal="#сallMeBack">Find tour</button>
+    		</div>
+    	</div>
+    </div>
+    <section class="section" id="reviews" data-scrollspy="#reviews">
+    	<div class="container">
+    		<h2 class="section__title" data-aos="fade-right">Clients <span>Reviews</span></h2>
+    		<div class="reviews" id="reviewsSlider">
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="../../assets/img/reviews/1.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">Anna Ferth</div>
+    						<div class="reviews__profession">Teacher</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="assets/img/reviews/2.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">John Smith</div>
+    						<div class="reviews__profession">Architect</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="assets/img/reviews/3.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">Fred Dred</div>
+    						<div class="reviews__profession">Secretary</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="assets/img/reviews/4.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">Jo So</div>
+    						<div class="reviews__profession">Designer</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="assets/img/reviews/5.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">Jim Beam</div>
+    						<div class="reviews__profession">Pilot</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p lang="zxx">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p lang="zxx">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    			<div class="reviews__item">
+    				<div class="reviews__header">
+    					<img class="reviews__photo" src="assets/img/reviews/6.jpg" alt="Author">
+    					<div class="reviews__header-content">
+    						<div class="reviews__name">Lisa Torn</div>
+    						<div class="reviews__profession">Engineer</div>
+    					</div>
+    				</div>
+    				<div class="reviews__content">
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>
+    
+    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    						Aspernatur sequi assumenda perferendis, 
+    						maiores voluptatem suscipit mollitia consequuntur! 
+    						Possimus veritatis culpa dolores magnam doloremque, 
+    						natus ut, voluptatum enim laudantium neque sed.</p>	
+    				</div>
+    			</div>
+    		</div>
+    		<button class="btn  btn--section" data-modal="#сallMeBack">Become a client</button>
+    	</div>
+    </section>
+    <section class="section  section--grey" id="team" data-scrollspy="#team">
+    	<div class="container">
+    		<h2 class="section__title" data-aos="fade-right">Our <span>Team</span></h2>
+    		<div class="team">
+    			<div class="team__item" data-aos="fade-left">
+    				<img class="team__photo" src="assets/img/team/team-1.jpg" data-aos="fade-in" alt="Team member">
+    				<div class="team__name">Elena Row</div>
+    				<div class="team__prof">profession</div>
+    				<ul class="team__contacts">
+    					<li>
+    						<img src="assets/img/mail-icon.svg" alt="Mail-icon">
+    						<a href="mailto:elena@journey.com">elena@journey.com</a>
+    					</li>
+    					<li>
+    						<img src="assets/img/phone-icon.svg" alt="Phone-icon">
+    						<a href="tel:+79163454567">+79163454567</a>
+    					</li>
+    				</ul>	
+    			</div>
+    			<div class="team__item" data-aos="fade-left" data-aos-delay="500">
+    				<img class="team__photo" src="assets/img/team/team-2.jpg"  alt="Team member">
+    				<div class="team__name">John Doe</div>
+    				<div class="team__prof">profession</div>
+    				<ul class="team__contacts">
+    					<li>
+    						<img src="assets/img/mail-icon.svg" alt="Mail-icon">
+    						<a href="mailto:john@journey.com">john@journey.com</a>
+    					</li>
+    					<li>
+    						<img src="assets/img/phone-icon.svg" alt="Phone-icon">
+    						<a href="tel:+78906546213">+78906546213</a>
+    					</li>
+    				</ul>	
+    			</div>
+    			<div class="team__item" data-aos="fade-left" data-aos-delay="1000">
+    				<img class="team__photo" src="assets/img/team/team-3.jpg"  alt="Team member">
+    				<div class="team__name">Jim Boe</div>
+    				<div class="team__prof">profession</div>
+    				<ul class="team__contacts">
+    					<li>
+    						<img src="assets/img/mail-icon.svg" alt="Mail-icon">
+    						<a href="mailto:jim@journey.com">jim@journey.com</a>
+    					</li>
+    					<li>
+    						<img src="assets/img/phone-icon.svg" alt="Phone-icon">
+    						<a href="tel:+78904352717">+78904352717</a>
+    					</li>
+    				</ul>	
+    			</div>	
+    		</div>
+    	</div>
+    </section>
+    <section class="section" id="blog" data-scrollspy="#blog">
+    	<div class="container">
+    		<h2 class="section__title" data-aos="fade-right">Special <span>News</span></h2>
+    		<div class="news">
+    			<article class="news__item">
+    				<div class="news__img">
+    					<img class="img" src="assets/img/news/news-1.jpg" alt="Mountain">
+    				</div>
+    				<div class="news__content">
+    					
+    					<h4 class="news__title">
+    						<a href="blogArticle-1.html">Ice Desert</a>
+    					</h4>
+    					<p class="news__text">Lorem ipsum dolor sit amet,
+    					consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+    					At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+    					no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+    					<time datetime="2020-06-27 12:15" class="news__date">21 March, 2020</time>
+    				</div>
+    			</article>
+    			
+    			<article class="news__item">
+    				<div class="news__img">
+    					<img class="img" src="assets/img/news/news-2.jpg" alt="Dubai">
+    				</div>
+    				<div class="news__content">
+    					<h4 class="news__title">
+    						<a href="#">Cultural mystery</a>
+    					</h4>
+    					<p class="news__text">Lorem ipsum dolor sit amet,
+    					consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+    					At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+    					no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+    					<time datetime="2020-03-21 15:00" class="news__date">21 March, 2020</time>
+    				</div>
+    			</article>
+    		</div>
+    		<button class="btn">Visit blog</button>
+    	</div>
+    </section>
+    <footer class="footer">
+    	<div class="container">
+    	  	<div class="footer__inner">
+    		<div class="footer__col footer__col--first">
+    			<a class="logo  logo--dark" href="index.html">J<span>o</span>urney</a>
+    		  	<div class="footer__text">Lorem ipsum dolor sit amet, 
+    			consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+    			consequat. </div>
+    			<form class="footer__subscribe" action="/" method="post">
+    				<input class="input  input--destination" type="email" name="email" placeholder="E-mail">
+    			  	<button class="btn  btn--noshadow  btn--nomargin" data-modal="#thanksForRequest" type="submit">Subscribe</button>
+    			</form>
+    		</div>
+    		<div class="footer__col footer__col--second">
+    			
+    			<div class="contacts">
+    				<div class="contacts__title">Contacts</div>
+    				<ul>
+    					<li class="contacts__item">
+    					  	<img class="contacts__icon" src="assets/img/adress-icon.svg" alt="Adress-icon">
+    					  	<a class="contacts__link" href="#">700/10 Manchester,King Street,United Kingdom</a>
+    					</li>
+    					<li class="contacts__item">
+    						<img class="contacts__icon" src="assets/img/phone-icon.svg" alt="Phone-icon">
+    						<a class="contacts__link" href="tel:+7456345677554">+7456345677554</a>
+    					</li>
+    					<li class="contacts__item">
+    						<img class="contacts__icon" src="assets/img/mail-icon.svg" alt="Mail-icon">
+    						<a class="contacts__link" href="mailto:info@demolink.org">info@demolink.org</a>
+    					</li>
+    				</ul>
+    			
+    				<div class="social"> 
+    					<a class="social__follow" href="#" target="_blank">
+    						  <img src="assets/img/footer/social/facebook-icon.svg" alt="Facebook-icon">
+    					</a>
+    					<a class="social__follow" href="#" target="_blank">
+    						<img src="assets/img/footer/social/instagram-icon.svg" alt="Instagram-icon">
+    					</a>
+    					<a class="social__follow" href="#" target="_blank">
+    						  <img src="assets/img/footer/social/twitter-icon.svg" alt="Twitter-icon">
+    					</a>
+    					<a class="social__follow" href="#" target="_blank">
+    						<img src="assets/img/footer/social/pinterest-icon.svg" alt="Pinterest-icon">
+    				  </a> 
+    				</div>	
+    			</div>
+    
+    		</div>  
+    		<div class="footer__col footer__col--third">
+    
+    			<div class="instagram">
+    				<div class="instagram__title">Instagram</div>
+    				<div class="instagram__inner">
+    					<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/1.jpg" alt="Instagram-photo-1">
+    					</a>
+    					<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/2.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/3.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/4.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/5.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/6.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/7.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/8.jpg" alt="Instagram-photo-1">
+    				  	</a>
+    				  	<a class= "instagram__item" href="#" target="_blank">
+    					  	<img class="img" src="assets/img/footer/instagram/9.jpg" alt="Instagram-photo-1">
+    				 	</a>
+    				</div>
+    			</div>
+    		</div>
+    	  </div>
+    	  <div class="footer__copyright">
+    		  © 2020 copyright
+    	  </div>
+    	</div>
+      </footer>
+    <div class="modal" id="сallMeBack">
+    	<div class="modal__inner">
+    		<div class="modal__header">
+    			<h4 class="modal__title">Do you want to go on <br> an unforgettable trip? <br> We can help!</h4>
+    			<div class="modal__text">
+    				<p>Fill a little form and we'll call you back!</p>
+    			</div>
+    		</div>
+    		<form action="/" method="POST"></form>
+    			<input class="input  input--modal" type="text" name="name" placeholder=" Your name">
+    			<input class="input  input--modal" type="tel" name="phone" placeholder="Your phone">
+    			<input class="input  input--modal" type="email" name="e-mail" placeholder="Your e-mail">
+    			<button class="btn  btn--full" data-modal="#thanksForRequest" data-modal-close="">Call me back</button>
+    		</form>
+    		<div class="modal__footer">
+    
+    			<div class="social"> 
+    				<a class="social__follow" href="#" target="_blank">
+    					  <img src="assets/img/footer/social/facebook-icon.svg" alt="Facebook-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					<img src="assets/img/footer/social/instagram-icon.svg" alt="Instagram-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					  <img src="assets/img/footer/social/twitter-icon.svg" alt="Twitter-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					<img src="assets/img/footer/social/pinterest-icon.svg" alt="Pinterest-icon">
+    			  </a> 
+    			</div>
+    		</div>
+    		<button class="modal__close" type="button" data-modal-close="">
+    			<img  src="assets/img/close-icon.svg" alt="Close">
+    		</button>
+    	</div>
+    </div>
+    <div class="modal" id="thanksForRequest">
+    	<div class="modal__inner">
+    		<div class="modal__header">
+    			<a class="logo  logo--dark" href="index.html">J<span>o</span>urney</a>
+    			<h4 class="modal__title">Thanks for your request</h4>
+    			<div class="modal__text">
+    				<p>We'll call you back as soon as possible!</p>
+    			</div>
+    		</div>
+    		<div class="modal__footer">
+    
+    			<div class="social"> 
+    				<a class="social__follow" href="#" target="_blank">
+    					  <img src="assets/img/footer/social/facebook-icon.svg" alt="Facebook-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					<img src="assets/img/footer/social/instagram-icon.svg" alt="Instagram-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					  <img src="assets/img/footer/social/twitter-icon.svg" alt="Twitter-icon">
+    				</a>
+    				<a class="social__follow" href="#" target="_blank">
+    					<img src="assets/img/footer/social/pinterest-icon.svg" alt="Pinterest-icon">
+    			  </a> 
+    			</div>
+    		</div>
+    		<button class="modal__close" type="button" data-modal-close="">
+    			<img  src="assets/img/close-icon.svg" alt="Close">
+    		</button>
+    	</div>
+    </div>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
